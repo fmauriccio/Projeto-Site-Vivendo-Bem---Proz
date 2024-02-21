@@ -3,7 +3,7 @@ function fazerLogin() {
   var password = document.getElementById("password").value;
 
   if (email === "als@gmail.com" && password === "12345") {
-    window.location.href = "home.html";
+    window.location.href = "index.html";
   } else {
     alert("E-mail ou senha incorretos. Por favor, tente novamente.");
   }
