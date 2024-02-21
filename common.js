@@ -7,5 +7,5 @@ function verificarLogin() {
 
 function fazerLogout() {
   localStorage.removeItem("usuarioLogado");
-  window.location.href = "login.html";
+  window.location.href = "index.html";
 }
