@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vivendo bem - Login</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
     <span><img src="img/Logo.jpeg" width="150px"/></span>
-    <h2>Login</h2>
-    <form id="loginForm" onsubmit="fazerLogin(); return false;">
-        E-mail: <input type="email" id="email" name="email" required><br>
-        Senha: <input type="password" id="password" name="password" required><br><br>
-        <input type="submit" value="Login">
-    </form>
+    <div class="login">
+        <h2>Login</h2>
+        <form id="loginForm" onsubmit="fazerLogin(); return false;">
+            E-mail: <input type="email" id="email" name="email" required><br>
+            Senha: <input type="password" id="password" name="password" required><br><br>
+            <input type="submit" value="Login">
+        </form>
+    </div>
 
     <footer>
         <span> <img src="img/Rodapé.jpeg" width="150px" height="55px"/></span>

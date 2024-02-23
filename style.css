@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+.login {
+    background-color: #85BB65;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.login h2 {
+    color: white;
+    text-align: center;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login form input[type="email"],
+.login form input[type="password"],
+.login form input[type="submit"] {
+    margin-bottom: 10px; 
+    padding: 8px; 
+    border: none;
+    border-radius: 5px; 
+}
+
+footer {
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+footer p {
+    font-size: 12px;
+}
